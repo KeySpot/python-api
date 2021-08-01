@@ -24,11 +24,11 @@ record = keyspot.get_record('<accessKey>')
 
 Updating your environment in code:
 ```python
-    import keyspot
+import keyspot
 
-    newVariables = {"newVar1": "foo", "newVar2": "bar"}
+newVariables = {"newVar1": "foo", "newVar2": "bar"}
 
-    update_record('<accessKey>', newVariables)
+update_record('<accessKey>', newVariables)
 
 ```
 
