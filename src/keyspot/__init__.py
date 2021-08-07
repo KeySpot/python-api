@@ -12,5 +12,5 @@ def get_record(access_key):
 
 def update_record(access_key, new_record):
     connection = http.client.HTTPSConnection(url, 443)
-    connection.request('PUT', f'/{access_key}', json.dumps(new_record), {'Content-Type': 'application/json'})
+    connection.request('PATCH', f'/{access_key}', json.dumps(new_record), {'Content-Type': 'application/json'})
     connection.getresponse()

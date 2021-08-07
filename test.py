@@ -1,6 +1,6 @@
-from src import *
+from src import keyspot
 
-access_key = '60fdb8acb210980ca14738d0'
+access_key = '610ee66604b4af8d1b15d740'
 
 update_record(access_key, {'new': 'var', 'mumbo': 'jumbo'})
 
